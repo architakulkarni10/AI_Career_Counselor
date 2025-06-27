@@ -1,0 +1,43 @@
+version: "3.1"
+
+rules:
+
+- rule: Greet user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Handle career confusion
+  steps:
+    - intent: career_confused
+    - action: utter_ask_confusion
+
+- rule: Handle field inquiry - engineering
+  steps:
+    - intent: ask_engineering
+    - action: utter_field_engineering
+
+- rule: Handle field inquiry - commerce
+  steps:
+    - intent: ask_commerce
+    - action: utter_field_commerce
+
+- rule: Handle field inquiry - medicine
+  steps:
+    - intent: ask_medicine
+    - action: utter_field_medicine
+
+- rule: Handle field inquiry - arts
+  steps:
+    - intent: ask_arts
+    - action: utter_field_arts
+
+- rule: Handle interest-based suggestion
+  steps:
+    - intent: share_interests
+    - action: utter_suggest_based_on_interest
+
+- rule: Respond to thanks
+  steps:
+    - intent: say_thanks
+    - action: utter_gratitude

@@ -1,0 +1,41 @@
+version: "3.1"
+
+intents:
+  - greet
+  - career_confused
+  - ask_engineering
+  - ask_commerce
+  - ask_medicine
+  - ask_arts
+  - share_interests
+  - say_thanks
+
+responses:
+  utter_greet:
+    - text: "Hello! I'm here to help you figure out your career path. How can I help you today?"
+
+  utter_ask_confusion:
+    - text: "No worries! After 12th, you can explore Science, Commerce, Arts, or Medicine depending on your interests. Want to know more about any of them? Or tell me what you like and I’ll guide you."
+
+  utter_field_engineering:
+    - text: "Engineering includes Computer Science, Mechanical, Civil, and more. Careers include software developer, civil engineer, etc."
+
+  utter_field_commerce:
+    - text: "Commerce includes B.Com, CA, and business studies. You can become an accountant, analyst, or entrepreneur."
+
+  utter_field_medicine:
+    - text: "Medicine includes becoming a doctor, dentist, psychologist, or Ayurvedic practitioner. You’ll need biology and strong dedication."
+
+  utter_field_arts:
+    - text: "Arts covers creativity — painting, writing, dancing, or becoming a chef. Follow your passions professionally."
+
+  utter_suggest_based_on_interest:
+    - text: |
+        Based on your interests, here are suggestions:
+        - Math & Tech: Engineering, Data Science
+        - Biology & People: Medicine, Psychology
+        - Business & Numbers: Commerce, CA
+        - Creativity: Arts, Design, Culinary Arts
+
+  utter_gratitude:
+    - text: "Glad to help! Let me know if you'd like to explore more options."

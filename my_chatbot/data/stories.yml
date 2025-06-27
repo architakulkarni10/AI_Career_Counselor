@@ -1,0 +1,39 @@
+version: "3.1"
+
+stories:
+- story: Career guidance basic flow
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: career_confused
+    - action: utter_ask_confusion
+
+- story: Engineering path
+  steps:
+    - intent: ask_engineering
+    - action: utter_field_engineering
+
+- story: Commerce path
+  steps:
+    - intent: ask_commerce
+    - action: utter_field_commerce
+
+- story: Medicine path
+  steps:
+    - intent: ask_medicine
+    - action: utter_field_medicine
+
+- story: Arts path
+  steps:
+    - intent: ask_arts
+    - action: utter_field_arts
+
+- story: Interest-based suggestions
+  steps:
+    - intent: share_interests
+    - action: utter_suggest_based_on_interest
+
+- story: User says thanks
+  steps:
+    - intent: say_thanks
+    - action: utter_gratitude

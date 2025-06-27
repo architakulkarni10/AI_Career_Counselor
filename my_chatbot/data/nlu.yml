@@ -1,0 +1,62 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+
+- intent: career_confused
+  examples: |
+    - I'm confused about my career
+    - I don't know what to do after 12th
+    - Can you help me choose a career?
+    - I need career guidance
+
+- intent: ask_engineering
+  examples: |
+    - tell me more about engineering
+    - what do engineers do?
+    - I want to know about engineering
+    - explain engineering
+
+- intent: ask_commerce
+  examples: |
+    - what is commerce like?
+    - tell me about commerce
+    - explain commerce stream
+
+- intent: ask_medicine
+  examples: |
+    - can you explain medicine?
+    - tell me about medical careers
+    - I want to become a doctor
+    - how is the medicine stream?
+
+- intent: ask_arts
+  examples: |
+    - what careers are in arts?
+    - tell me about arts
+    - explain art field
+    - what about humanities?
+
+- intent: share_interests
+  examples: |
+    - I like math and computers
+    - I enjoy drawing and painting
+    - I love helping people
+    - I'm interested in business
+    - I enjoy biology and chemistry
+    - I like cooking
+    - I want to become a dancer
+    - I like solving technical problems
+
+- intent: say_thanks
+  examples: |
+    - thank you
+    - thanks
+    - that's helpful
+    - appreciate it
