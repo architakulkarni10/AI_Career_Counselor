@@ -15,8 +15,8 @@ Welcome to **AI Career Counselor** — a personalized career guidance web app bu
 
 ## 🖼️ Preview
 
-![screenshot](https://github.com/architakulkarni10/ai-career-counselor/blob/main/screenshots/ai-career-counselor.png)
-> Replace with an actual screenshot once uploaded
+![Screenshot (4)](https://github.com/user-attachments/assets/842cefe4-a93e-4d7e-8685-8431d40e09bf)
+
 
 ---
 
